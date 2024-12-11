@@ -1,0 +1,10 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Dice 1" clip-path="url(#clip0_8_612)">
+<path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M0 10.7143C0 4.79696 4.79696 0 10.7143 0H49.2857C55.203 0 60 4.79696 60 10.7143V49.2857C60 55.203 55.203 60 49.2857 60H10.7143C4.79696 60 0 55.203 0 49.2857V10.7143ZM30 35.1431C32.8403 35.1431 35.1428 32.8405 35.1428 30.0002C35.1428 27.1599 32.8403 24.8574 30 24.8574C27.1596 24.8574 24.8571 27.1599 24.8571 30.0002C24.8571 32.8405 27.1596 35.1431 30 35.1431Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_8_612">
+<rect width="60" height="60" fill="white"/>
+</clipPath>
+</defs>
+</svg>

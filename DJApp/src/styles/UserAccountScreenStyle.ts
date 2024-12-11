@@ -1,0 +1,130 @@
+// styles.ts
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  userAccountScreenChild: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: 917,
+    resizeMode: 'cover', // Object-fit equivalent in React Native
+  },
+  userName: {
+    position: 'absolute',
+    height: '15.79%',
+    width: '91.04%',
+    top: '1.95%',
+    left: '10.45%',
+    fontSize: 48,
+    fontFamily: 'Bungee Shade', // Referencing global font styles if necessary
+    color: '#fff',
+    textAlign: 'center', // Centered alignment for user name
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  homeButtonIcon: {
+    position: 'absolute',
+    top: 797,
+    left: 160,
+    width: 82,
+    height: 77,
+  },
+  trendingPosts1: {
+    position: 'absolute',
+    top: 21,
+    left: 0,
+    backgroundColor: '#f9c74f',
+    width: 356,
+    height: 146,
+    opacity: 0.7,
+  },
+  trendingPosts2: {
+    position: 'absolute',
+    height: '52.69%',
+    width: '96.35%',
+    top: 0,
+    left: '1.69%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  trendingPosts: {
+    position: 'absolute',
+    top: 309,
+    left: 16,
+    width: 356,
+    height: 167,
+  },
+  lastVisited1: {
+    position: 'absolute',
+    top: 27,
+    left: 0,
+    backgroundColor: '#f9c74f',
+    width: 356,
+    height: 146,
+    opacity: 0.7,
+  },
+  lastVisited2: {
+    position: 'absolute',
+    height: '50.87%',
+    width: '96.35%',
+    top: 0,
+    left: '1.69%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  lastVisited: {
+    position: 'absolute',
+    top: 479,
+    left: 16,
+    width: 356,
+    height: 173,
+  },
+  userTagChild: {
+    position: 'absolute',
+    top: 26,
+    left: 91,
+    backgroundColor: '#d63031',
+    width: 356,
+    height: 49,
+    opacity: 0.7,
+  },
+  tagNa: {
+    position: 'absolute',
+    height: '100%',
+    width: '76.73%',
+    top: 0,
+    left: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  userTag: {
+    position: 'absolute',
+    top: 234,
+    left: -89,
+    width: 447,
+    height: 101,
+  },
+  profilePicture: {
+    position: 'absolute',
+    top: 126,
+    left: 142,
+    borderRadius: 50,
+    backgroundColor: '#d9d9d9',
+    width: 118,
+    height: 114,
+  },
+  arrowLeftIcon: {
+    position: 'absolute',
+    top: 63,
+    left: 2,
+    width: 48,
+    height: 48,
+  },
+  arrowLeftIconImage: {
+    width: '100%',
+    height: '100%',
+  },
+});
+
+export default styles;
